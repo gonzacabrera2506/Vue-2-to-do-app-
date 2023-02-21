@@ -4,19 +4,19 @@
 
 <template>
   <div class="container">
-    <div class="col-sm-8 col-sm-offset-2">
-      <h1>Titulo de App.vue</h1>
+    <div class="col-sm-7 col-sm-offset-2">
+      <h1>To-Do App</h1>
       <Table />
+      <Form />
     </div>
-</div>
+  </div>
 </template>
 
 <style scoped>
- body {
-  background-color: antiquewhite;
- }
  h1 {
-  color: red;
+  color: rgb(212, 9, 9);
+  text-align: center;
+  padding-top: 30px;
  }
  
 </style>
